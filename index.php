@@ -26,7 +26,7 @@ function loadItems(items){
 }
 
 function reloadCatalog() {
-    showErrorMessage("The catalog is not currently available, retrying...");
+    showErrorMessage("The catalog is not currently available, let us try again...");
     window.setTimeout(
         function() {
             $.ajax ({
